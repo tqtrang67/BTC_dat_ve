@@ -1,0 +1,17 @@
+.title {
+	color: #ff9800;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+}
+
+.name {
+	font-size: 1em;
+
+	font-weight: 600;
+}
+.error {
+	color: red;
+}

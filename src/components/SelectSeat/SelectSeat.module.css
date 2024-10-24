@@ -1,0 +1,95 @@
+.status_seats {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	justify-content: flex-start;
+}
+
+.seat_green::before {
+	content: "";
+	background: Green;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.seat_yellow::before {
+	content: "";
+	background: yellow;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.seat_red::before {
+	content: "";
+	background: red;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.seatStructure {
+	text-align: center;
+}
+
+.select {
+	margin-bottom: 0px;
+	background: #ff9800;
+	letter-spacing: 1px;
+}
+.table {
+	display: table;
+	text-align: center;
+}
+
+.screen {
+	width: 100%;
+	background-color: #ff9800;
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.btn {
+	margin-bottom: 10px;
+	background: rgb(0, 110, 255);
+	border: none;
+	color: #000;
+	font-weight: 600;
+	padding: 8px 20px;
+	border-radius: 10px;
+	font-size: 1em;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.btnItem {
+	border: 2px solid yellow;
+	cursor: pointer;
+	width: 40px;
+	font-weight: 600;
+	font-size: 1em;
+	height: 24px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btnItem.green {
+	background-color: green;
+	color: #fff;
+}
+
+.btnItem.red {
+	background-color: red;
+	color: #fff;
+}
+.btnTitle {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
